@@ -105,6 +105,8 @@ namespace Ejercicio1
                     {
                         concepto = boxConcept.SelectedIndex;
                         principal.AgregarMovimineto(nCliente, nCuenta, monto, concepto);
+                        Point posicionForm = this.Location;
+                        principal.Location = posicionForm;
                         principal.Show();
                         this.Close();
                     }

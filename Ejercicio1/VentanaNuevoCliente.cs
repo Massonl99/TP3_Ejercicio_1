@@ -48,6 +48,8 @@ namespace Ejercicio1
                 {
                     // El valor ingresado es un número entero de 8 dígitos
                     dni = int.Parse(tbC3.Text);
+                    Point posicionForm = this.Location;
+                    principal.Location = posicionForm;
                     principal.Show();
                     principal.AgregarCliente(nombre, apellido, dni);
                     this.Close();

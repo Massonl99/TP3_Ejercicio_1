@@ -75,7 +75,9 @@ namespace Ejercicio1
                 MessageBox.Show("ERROR SELECCIONE UN CLIENTE");
             }
             else {
+                Point posicionForm = this.Location;
                 principal.AgregarCuenta(boxClientes.SelectedIndex,nCuenta);
+                principal.Location=posicionForm;
                 principal.Show();
                 this.Close();
             }
