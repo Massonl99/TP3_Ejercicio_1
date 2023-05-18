@@ -1,0 +1,24 @@
+G:\Mi unidad\Universidad\2do AÑO\Analisis de Sistemas\Laboratorio\Trabajos Practicos\TP3\Repo\Ejercicio1\Ejercicio1\bin\Release\Ejercicio1.exe.config
+G:\Mi unidad\Universidad\2do AÑO\Analisis de Sistemas\Laboratorio\Trabajos Practicos\TP3\Repo\Ejercicio1\Ejercicio1\bin\Release\Ejercicio1.exe
+G:\Mi unidad\Universidad\2do AÑO\Analisis de Sistemas\Laboratorio\Trabajos Practicos\TP3\Repo\Ejercicio1\Ejercicio1\obj\Release\Ejercicio1.csproj.AssemblyReference.cache
+G:\Mi unidad\Universidad\2do AÑO\Analisis de Sistemas\Laboratorio\Trabajos Practicos\TP3\Repo\Ejercicio1\Ejercicio1\obj\Release\Ejercicio1.csproj.SuggestedBindingRedirects.cache
+G:\Mi unidad\Universidad\2do AÑO\Analisis de Sistemas\Laboratorio\Trabajos Practicos\TP3\Repo\Ejercicio1\Ejercicio1\obj\Release\Ejercicio1.VentanaPrincipal.resources
+G:\Mi unidad\Universidad\2do AÑO\Analisis de Sistemas\Laboratorio\Trabajos Practicos\TP3\Repo\Ejercicio1\Ejercicio1\obj\Release\Ejercicio1.VentanaConsultarSaldo.resources
+G:\Mi unidad\Universidad\2do AÑO\Analisis de Sistemas\Laboratorio\Trabajos Practicos\TP3\Repo\Ejercicio1\Ejercicio1\obj\Release\Ejercicio1.VentanaNuevaCuenta.resources
+G:\Mi unidad\Universidad\2do AÑO\Analisis de Sistemas\Laboratorio\Trabajos Practicos\TP3\Repo\Ejercicio1\Ejercicio1\obj\Release\Ejercicio1.VentanaNuevoCliente.resources
+G:\Mi unidad\Universidad\2do AÑO\Analisis de Sistemas\Laboratorio\Trabajos Practicos\TP3\Repo\Ejercicio1\Ejercicio1\obj\Release\Ejercicio1.VentanaNuevoMovimiento.resources
+G:\Mi unidad\Universidad\2do AÑO\Analisis de Sistemas\Laboratorio\Trabajos Practicos\TP3\Repo\Ejercicio1\Ejercicio1\obj\Release\Ejercicio1.csproj.GenerateResource.cache
+G:\Mi unidad\Universidad\2do AÑO\Analisis de Sistemas\Laboratorio\Trabajos Practicos\TP3\Repo\Ejercicio1\Ejercicio1\obj\Release\Ejercicio1.csproj.CoreCompileInputs.cache
+G:\Mi unidad\Universidad\2do AÑO\Analisis de Sistemas\Laboratorio\Trabajos Practicos\TP3\Repo\Ejercicio1\Ejercicio1\obj\Release\Ejercicio1.exe
+C:\Users\Rohan\Documents\Analisis de Sistemas\TP3\Ejercicio_1\TP3_Ejercicio_1\Ejercicio1\obj\Release\Ejercicio1.csproj.AssemblyReference.cache
+C:\Users\Rohan\Documents\Analisis de Sistemas\TP3\Ejercicio_1\TP3_Ejercicio_1\Ejercicio1\obj\Release\Ejercicio1.csproj.SuggestedBindingRedirects.cache
+C:\Users\Rohan\Documents\Analisis de Sistemas\TP3\Ejercicio_1\TP3_Ejercicio_1\Ejercicio1\obj\Release\Ejercicio1.VentanaPrincipal.resources
+C:\Users\Rohan\Documents\Analisis de Sistemas\TP3\Ejercicio_1\TP3_Ejercicio_1\Ejercicio1\obj\Release\Ejercicio1.VentanaConsultarSaldo.resources
+C:\Users\Rohan\Documents\Analisis de Sistemas\TP3\Ejercicio_1\TP3_Ejercicio_1\Ejercicio1\obj\Release\Ejercicio1.VentanaNuevaCuenta.resources
+C:\Users\Rohan\Documents\Analisis de Sistemas\TP3\Ejercicio_1\TP3_Ejercicio_1\Ejercicio1\obj\Release\Ejercicio1.VentanaNuevoCliente.resources
+C:\Users\Rohan\Documents\Analisis de Sistemas\TP3\Ejercicio_1\TP3_Ejercicio_1\Ejercicio1\obj\Release\Ejercicio1.VentanaNuevoMovimiento.resources
+C:\Users\Rohan\Documents\Analisis de Sistemas\TP3\Ejercicio_1\TP3_Ejercicio_1\Ejercicio1\obj\Release\Ejercicio1.csproj.GenerateResource.cache
+C:\Users\Rohan\Documents\Analisis de Sistemas\TP3\Ejercicio_1\TP3_Ejercicio_1\Ejercicio1\obj\Release\Ejercicio1.csproj.CoreCompileInputs.cache
+C:\Users\Rohan\Documents\Analisis de Sistemas\TP3\Ejercicio_1\TP3_Ejercicio_1\Ejercicio1\obj\Release\Ejercicio1.exe
+C:\Users\Rohan\Documents\Analisis de Sistemas\TP3\Ejercicio_1\TP3_Ejercicio_1\Ejercicio1\bin\Release\Ejercicio1.exe.config
+C:\Users\Rohan\Documents\Analisis de Sistemas\TP3\Ejercicio_1\TP3_Ejercicio_1\Ejercicio1\bin\Release\Ejercicio1.exe
