@@ -38,12 +38,10 @@ namespace Ejercicio1
         {
             nombre = tbC1.Text; 
             apellido = tbC2.Text;
-            if(nombre == "" && apellido == "")
+            if(nombre == "" || apellido == "")
             {
                 MessageBox.Show("ERROR, Ingrese Nombre o Apellido");
-            }else
-            {
-
+            }else{
                 if (tbC3.Text.Length == 8 && int.TryParse(tbC3.Text, out int numero))
                 {
                     // El valor ingresado es un número entero de 8 dígitos

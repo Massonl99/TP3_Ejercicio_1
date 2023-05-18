@@ -20,8 +20,6 @@ namespace Ejercicio1
 		public List<Movimientos> Move = new List<Movimientos>();
 		public int numeroMovimientos = 0;
 
-		public int num = -1;
-
 		public Cuenta()
 		{
 		}
@@ -39,10 +37,6 @@ namespace Ejercicio1
             get { return saldo; }
             set { saldo = value; }
         }
-        public string nCuentaySaldo
-		{
-			get { return $"{numeroCuenta}\t\t|\t{saldo}";}
-		}
 
 		public string NumerodeCuenta
 		{

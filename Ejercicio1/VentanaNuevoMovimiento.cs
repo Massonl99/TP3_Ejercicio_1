@@ -37,9 +37,9 @@ namespace Ejercicio1
             boxClientes.Text = "Selecciones una Cliente";
             IReadOnlyList<Cliente> lista1 = principal.ListaClientes;
 
-            foreach (Cliente cliente1 in lista1)
+            foreach (Cliente i in lista1)
             {
-                boxClientes.Items.Add(cliente1);
+                boxClientes.Items.Add(i);
             }
             boxClientes.DisplayMember = "NombreCompleto";
         }
@@ -48,9 +48,9 @@ namespace Ejercicio1
             boxCuenta.Items.Clear();
             boxCuenta.Text = "Selecciones una Cuenta";
             IReadOnlyCollection<Cuenta> lista2 = principal.ListaCuentas(carga);
-            foreach (Cuenta cuenta in lista2)
+            foreach (Cuenta i in lista2)
             {
-                boxCuenta.Items.Add(cuenta);
+                boxCuenta.Items.Add(i);
             }
             boxCuenta.DisplayMember = "NumeroCuenta";
         }
@@ -63,15 +63,14 @@ namespace Ejercicio1
         }
         private void boxClientes_SelectedIndexChanged(object sender, EventArgs e)
         {
-            nCuenta = boxClientes.SelectedIndex;
-            cargarListaCuentas(nCuenta);
+            cargarListaCuentas(boxClientes.SelectedIndex);
             boxCuenta.Enabled = true;
         }
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
             nCuenta = boxCuenta.SelectedIndex;
             nCliente = boxClientes.SelectedIndex;
-            if(nCliente >=0 && nCliente >= 0)
+            if(nCliente >=0 && nCuenta >= 0)
             {
                 float saldo = principal.Saldo(nCliente, nCuenta);
                 tbSaldo.Text = saldo.ToString();
@@ -89,7 +88,7 @@ namespace Ejercicio1
             else
             {
                 float saldo = principal.Saldo(nCliente, nCuenta);
-                if(tbMonto.Text == ""|| int.Parse(tbMonto.Text)<0)
+                if(tbMonto.Text == ""|| int.Parse(tbMonto.Text)<0 || int.TryParse(tbMonto.Text, out int numero))
                 {
                     MessageBox.Show("ERROR, Monto no valido");
                 }

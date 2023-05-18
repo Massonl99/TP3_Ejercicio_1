@@ -8,6 +8,7 @@ namespace Ejercicio1
 	public partial class VentanaPrincipal : Form
 	{
 		public int numeroClientes = 0;
+
 		private List< Cliente> Clientes = new List<Cliente>();
 		public VentanaPrincipal()
 		{

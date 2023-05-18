@@ -25,6 +25,7 @@ namespace Ejercicio1
 		public Cliente()
 		{
 		}
+
 		public int DNI {get{return dni;}set{dni=value;}}
 		public string Nombre {get{return nombre;}set{nombre=value;}}
 		public string Apellido {get{return apellido;}set{apellido=value;}}

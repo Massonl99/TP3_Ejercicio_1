@@ -76,7 +76,7 @@
             // tbC1
             // 
             this.tbC1.Font = new System.Drawing.Font("Unispace", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbC1.Location = new System.Drawing.Point(169, 188);
+            this.tbC1.Location = new System.Drawing.Point(183, 188);
             this.tbC1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.tbC1.Name = "tbC1";
             this.tbC1.Size = new System.Drawing.Size(190, 21);

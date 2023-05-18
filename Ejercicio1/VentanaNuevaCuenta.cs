@@ -81,7 +81,6 @@ namespace Ejercicio1
                 principal.Show();
                 this.Close();
             }
-
         }
     }
 }
