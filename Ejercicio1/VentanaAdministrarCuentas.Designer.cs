@@ -45,9 +45,10 @@
             // 
             // btVolver
             // 
-            this.btVolver.Location = new System.Drawing.Point(289, 369);
+            this.btVolver.Location = new System.Drawing.Point(353, 284);
+            this.btVolver.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btVolver.Name = "btVolver";
-            this.btVolver.Size = new System.Drawing.Size(75, 23);
+            this.btVolver.Size = new System.Drawing.Size(88, 25);
             this.btVolver.TabIndex = 50;
             this.btVolver.Text = "Volver";
             this.btVolver.UseVisualStyleBackColor = true;
@@ -56,18 +57,20 @@
             // labelT
             // 
             this.labelT.AutoSize = true;
-            this.labelT.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelT.Location = new System.Drawing.Point(12, 9);
+            this.labelT.Font = new System.Drawing.Font("Unispace", 17F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelT.Location = new System.Drawing.Point(14, 10);
+            this.labelT.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelT.Name = "labelT";
-            this.labelT.Size = new System.Drawing.Size(250, 25);
+            this.labelT.Size = new System.Drawing.Size(278, 28);
             this.labelT.TabIndex = 49;
             this.labelT.Text = "ADMINISTRAR CUENTAS";
             // 
             // btListarCuentas
             // 
-            this.btListarCuentas.Location = new System.Drawing.Point(267, 59);
+            this.btListarCuentas.Location = new System.Drawing.Point(161, 41);
+            this.btListarCuentas.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btListarCuentas.Name = "btListarCuentas";
-            this.btListarCuentas.Size = new System.Drawing.Size(112, 37);
+            this.btListarCuentas.Size = new System.Drawing.Size(131, 40);
             this.btListarCuentas.TabIndex = 51;
             this.btListarCuentas.Text = "Listar Cuentas";
             this.btListarCuentas.UseVisualStyleBackColor = true;
@@ -75,9 +78,10 @@
             // 
             // btBuscarCuenta
             // 
-            this.btBuscarCuenta.Location = new System.Drawing.Point(17, 59);
+            this.btBuscarCuenta.Location = new System.Drawing.Point(13, 41);
+            this.btBuscarCuenta.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btBuscarCuenta.Name = "btBuscarCuenta";
-            this.btBuscarCuenta.Size = new System.Drawing.Size(112, 37);
+            this.btBuscarCuenta.Size = new System.Drawing.Size(131, 40);
             this.btBuscarCuenta.TabIndex = 52;
             this.btBuscarCuenta.Text = "Buscar Cuenta";
             this.btBuscarCuenta.UseVisualStyleBackColor = true;
@@ -86,56 +90,63 @@
             // text1
             // 
             this.text1.AutoSize = true;
-            this.text1.Location = new System.Drawing.Point(17, 116);
+            this.text1.Location = new System.Drawing.Point(20, 125);
+            this.text1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.text1.Name = "text1";
-            this.text1.Size = new System.Drawing.Size(120, 13);
+            this.text1.Size = new System.Drawing.Size(147, 14);
             this.text1.TabIndex = 53;
-            this.text1.Text = "Ingrese el N° de Cuenta";
+            this.text1.Text = "Ingrese N° de Cuenta";
             // 
             // tbNCuenta
             // 
-            this.tbNCuenta.Location = new System.Drawing.Point(150, 113);
+            this.tbNCuenta.Location = new System.Drawing.Point(175, 122);
+            this.tbNCuenta.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.tbNCuenta.Name = "tbNCuenta";
-            this.tbNCuenta.Size = new System.Drawing.Size(148, 20);
+            this.tbNCuenta.Size = new System.Drawing.Size(241, 21);
             this.tbNCuenta.TabIndex = 54;
             // 
             // tbTitular
             // 
-            this.tbTitular.Location = new System.Drawing.Point(150, 160);
+            this.tbTitular.Location = new System.Drawing.Point(175, 172);
+            this.tbTitular.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.tbTitular.Name = "tbTitular";
-            this.tbTitular.Size = new System.Drawing.Size(148, 20);
+            this.tbTitular.Size = new System.Drawing.Size(241, 21);
             this.tbTitular.TabIndex = 56;
             // 
             // text2
             // 
             this.text2.AutoSize = true;
-            this.text2.Location = new System.Drawing.Point(17, 163);
+            this.text2.Location = new System.Drawing.Point(20, 176);
+            this.text2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.text2.Name = "text2";
-            this.text2.Size = new System.Drawing.Size(36, 13);
+            this.text2.Size = new System.Drawing.Size(56, 14);
             this.text2.TabIndex = 55;
             this.text2.Text = "Titular";
             // 
             // tbSaldo
             // 
-            this.tbSaldo.Location = new System.Drawing.Point(150, 186);
+            this.tbSaldo.Location = new System.Drawing.Point(175, 200);
+            this.tbSaldo.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.tbSaldo.Name = "tbSaldo";
-            this.tbSaldo.Size = new System.Drawing.Size(148, 20);
+            this.tbSaldo.Size = new System.Drawing.Size(241, 21);
             this.tbSaldo.TabIndex = 60;
             // 
             // text4
             // 
             this.text4.AutoSize = true;
-            this.text4.Location = new System.Drawing.Point(17, 189);
+            this.text4.Location = new System.Drawing.Point(20, 204);
+            this.text4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.text4.Name = "text4";
-            this.text4.Size = new System.Drawing.Size(34, 13);
+            this.text4.Size = new System.Drawing.Size(42, 14);
             this.text4.TabIndex = 59;
             this.text4.Text = "Saldo";
             // 
             // btBuscar
             // 
-            this.btBuscar.Location = new System.Drawing.Point(304, 111);
+            this.btBuscar.Location = new System.Drawing.Point(13, 284);
+            this.btBuscar.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btBuscar.Name = "btBuscar";
-            this.btBuscar.Size = new System.Drawing.Size(75, 23);
+            this.btBuscar.Size = new System.Drawing.Size(88, 25);
             this.btBuscar.TabIndex = 61;
             this.btBuscar.Text = "Buscar";
             this.btBuscar.UseVisualStyleBackColor = true;
@@ -143,17 +154,20 @@
             // 
             // Tabla
             // 
+            this.Tabla.BackgroundColor = System.Drawing.SystemColors.Window;
             this.Tabla.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.Tabla.Location = new System.Drawing.Point(12, 102);
+            this.Tabla.Location = new System.Drawing.Point(13, 87);
+            this.Tabla.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.Tabla.Name = "Tabla";
-            this.Tabla.Size = new System.Drawing.Size(367, 261);
+            this.Tabla.Size = new System.Drawing.Size(428, 183);
             this.Tabla.TabIndex = 67;
             // 
             // VentanaAdministrarCuentas
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(391, 402);
+            this.BackColor = System.Drawing.SystemColors.Window;
+            this.ClientSize = new System.Drawing.Size(464, 321);
             this.Controls.Add(this.Tabla);
             this.Controls.Add(this.btBuscar);
             this.Controls.Add(this.tbSaldo);
@@ -166,8 +180,12 @@
             this.Controls.Add(this.btListarCuentas);
             this.Controls.Add(this.btVolver);
             this.Controls.Add(this.labelT);
+            this.Font = new System.Drawing.Font("Unispace", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.Name = "VentanaAdministrarCuentas";
-            this.Text = "VentanaAdministrarCuentas";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
+            this.Text = "ADMINISTRADOR DE CUENTAS";
             ((System.ComponentModel.ISupportInitialize)(this.Tabla)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

@@ -24,6 +24,8 @@ namespace Ejercicio1
 
         private void btVolver_Click(object sender, EventArgs e)
         {
+            Point posicionForm = this.Location;
+            principal.Location = posicionForm;
             this.Close();
             principal.Show();
         }

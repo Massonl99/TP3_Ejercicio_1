@@ -30,88 +30,84 @@
         {
             this.boxClientes = new System.Windows.Forms.ComboBox();
             this.labelT = new System.Windows.Forms.Label();
-            this.labelC2 = new System.Windows.Forms.Label();
             this.labelC1 = new System.Windows.Forms.Label();
             this.btVolver = new System.Windows.Forms.Button();
-            this.labelC3 = new System.Windows.Forms.Label();
-            this.BoxListCuentas = new System.Windows.Forms.ListBox();
+            this.Tabla = new System.Windows.Forms.DataGridView();
+            ((System.ComponentModel.ISupportInitialize)(this.Tabla)).BeginInit();
             this.SuspendLayout();
             // 
             // boxClientes
             // 
+            this.boxClientes.Font = new System.Drawing.Font("Unispace", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.boxClientes.FormattingEnabled = true;
-            this.boxClientes.Location = new System.Drawing.Point(120, 37);
+            this.boxClientes.Location = new System.Drawing.Point(151, 50);
+            this.boxClientes.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.boxClientes.Name = "boxClientes";
-            this.boxClientes.Size = new System.Drawing.Size(156, 21);
+            this.boxClientes.Size = new System.Drawing.Size(296, 22);
             this.boxClientes.TabIndex = 43;
             this.boxClientes.SelectedIndexChanged += new System.EventHandler(this.boxClientes_SelectedIndexChanged);
             // 
             // labelT
             // 
             this.labelT.AutoSize = true;
-            this.labelT.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelT.Location = new System.Drawing.Point(12, 9);
+            this.labelT.Font = new System.Drawing.Font("Unispace", 17F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelT.Location = new System.Drawing.Point(14, 9);
+            this.labelT.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelT.Name = "labelT";
-            this.labelT.Size = new System.Drawing.Size(210, 25);
+            this.labelT.Size = new System.Drawing.Size(222, 28);
             this.labelT.TabIndex = 42;
             this.labelT.Text = "CONSULTAR SALDO";
             // 
-            // labelC2
-            // 
-            this.labelC2.Location = new System.Drawing.Point(14, 67);
-            this.labelC2.Name = "labelC2";
-            this.labelC2.Size = new System.Drawing.Size(100, 23);
-            this.labelC2.TabIndex = 41;
-            this.labelC2.Text = "N° Cuenta";
-            // 
             // labelC1
             // 
-            this.labelC1.Location = new System.Drawing.Point(14, 40);
+            this.labelC1.Font = new System.Drawing.Font("Unispace", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelC1.Location = new System.Drawing.Point(16, 53);
+            this.labelC1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelC1.Name = "labelC1";
-            this.labelC1.Size = new System.Drawing.Size(100, 23);
+            this.labelC1.Size = new System.Drawing.Size(117, 23);
             this.labelC1.TabIndex = 40;
             this.labelC1.Text = "Titular";
             // 
             // btVolver
             // 
-            this.btVolver.Location = new System.Drawing.Point(201, 284);
+            this.btVolver.Font = new System.Drawing.Font("Unispace", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btVolver.Location = new System.Drawing.Point(351, 284);
+            this.btVolver.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btVolver.Name = "btVolver";
-            this.btVolver.Size = new System.Drawing.Size(75, 23);
+            this.btVolver.Size = new System.Drawing.Size(100, 25);
             this.btVolver.TabIndex = 48;
             this.btVolver.Text = "Volver";
             this.btVolver.UseVisualStyleBackColor = true;
             this.btVolver.Click += new System.EventHandler(this.btVolver_Click);
             // 
-            // labelC3
+            // Tabla
             // 
-            this.labelC3.Location = new System.Drawing.Point(198, 68);
-            this.labelC3.Name = "labelC3";
-            this.labelC3.Size = new System.Drawing.Size(59, 23);
-            this.labelC3.TabIndex = 45;
-            this.labelC3.Text = "Saldo";
-            // 
-            // BoxListCuentas
-            // 
-            this.BoxListCuentas.FormattingEnabled = true;
-            this.BoxListCuentas.Location = new System.Drawing.Point(17, 94);
-            this.BoxListCuentas.Name = "BoxListCuentas";
-            this.BoxListCuentas.Size = new System.Drawing.Size(259, 173);
-            this.BoxListCuentas.TabIndex = 49;
+            this.Tabla.BackgroundColor = System.Drawing.SystemColors.Window;
+            this.Tabla.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.Tabla.Location = new System.Drawing.Point(19, 79);
+            this.Tabla.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.Tabla.Name = "Tabla";
+            this.Tabla.Size = new System.Drawing.Size(428, 183);
+            this.Tabla.TabIndex = 68;
             // 
             // VentanaConsultarSaldo
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(302, 319);
-            this.Controls.Add(this.BoxListCuentas);
+            this.BackColor = System.Drawing.SystemColors.Window;
+            this.ClientSize = new System.Drawing.Size(464, 321);
+            this.Controls.Add(this.Tabla);
             this.Controls.Add(this.btVolver);
-            this.Controls.Add(this.labelC3);
             this.Controls.Add(this.boxClientes);
             this.Controls.Add(this.labelT);
-            this.Controls.Add(this.labelC2);
             this.Controls.Add(this.labelC1);
+            this.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.Name = "VentanaConsultarSaldo";
-            this.Text = "VentanaConsultarSaldo";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
+            this.Text = "CONSULTAR SALDO";
+            ((System.ComponentModel.ISupportInitialize)(this.Tabla)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -120,10 +116,8 @@
         #endregion
         private System.Windows.Forms.ComboBox boxClientes;
         private System.Windows.Forms.Label labelT;
-        private System.Windows.Forms.Label labelC2;
         private System.Windows.Forms.Label labelC1;
         private System.Windows.Forms.Button btVolver;
-        private System.Windows.Forms.Label labelC3;
-        private System.Windows.Forms.ListBox BoxListCuentas;
+        private System.Windows.Forms.DataGridView Tabla;
     }
 }

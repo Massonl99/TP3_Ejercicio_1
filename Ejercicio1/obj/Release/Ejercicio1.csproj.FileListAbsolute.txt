@@ -35,3 +35,4 @@ C:\Users\Rohan\Documents\Analisis de Sistemas\TP3\Ejercicio_1\Ejercicio1\obj\Rel
 C:\Users\Rohan\Documents\Analisis de Sistemas\TP3\Ejercicio_1\Ejercicio1\obj\Release\Ejercicio1.csproj.GenerateResource.cache
 C:\Users\Rohan\Documents\Analisis de Sistemas\TP3\Ejercicio_1\Ejercicio1\obj\Release\Ejercicio1.csproj.CoreCompileInputs.cache
 C:\Users\Rohan\Documents\Analisis de Sistemas\TP3\Ejercicio_1\Ejercicio1\obj\Release\Ejercicio1.exe
+C:\Users\Rohan\Documents\Analisis de Sistemas\TP3\Ejercicio_1\Ejercicio1\obj\Release\Ejercicio1.Properties.Resources.resources

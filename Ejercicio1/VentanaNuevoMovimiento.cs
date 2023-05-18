@@ -56,6 +56,8 @@ namespace Ejercicio1
         }
         private void btVolver_Click(object sender, EventArgs e)
         {
+            Point posicionForm = this.Location;
+            principal.Location = posicionForm;
             principal.Show();
             this.Close();
         }
@@ -121,6 +123,11 @@ namespace Ejercicio1
         private void boxCuenta_SelectedIndexChanged(object sender, EventArgs e)
         {
             boxConcept.Enabled = true;
+        }
+
+        private void labelC2_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

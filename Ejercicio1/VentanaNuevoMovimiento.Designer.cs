@@ -45,9 +45,11 @@
             // 
             // btVolver
             // 
-            this.btVolver.Location = new System.Drawing.Point(207, 211);
+            this.btVolver.Font = new System.Drawing.Font("Unispace", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btVolver.Location = new System.Drawing.Point(363, 284);
+            this.btVolver.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btVolver.Name = "btVolver";
-            this.btVolver.Size = new System.Drawing.Size(75, 23);
+            this.btVolver.Size = new System.Drawing.Size(88, 25);
             this.btVolver.TabIndex = 36;
             this.btVolver.Text = "Volver";
             this.btVolver.UseVisualStyleBackColor = true;
@@ -56,18 +58,21 @@
             // labelT
             // 
             this.labelT.AutoSize = true;
-            this.labelT.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelT.Location = new System.Drawing.Point(12, 9);
+            this.labelT.Font = new System.Drawing.Font("Unispace", 17.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelT.Location = new System.Drawing.Point(14, 9);
+            this.labelT.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelT.Name = "labelT";
-            this.labelT.Size = new System.Drawing.Size(218, 25);
+            this.labelT.Size = new System.Drawing.Size(236, 28);
             this.labelT.TabIndex = 35;
             this.labelT.Text = "NUEVO MOVIMIENTO";
             // 
             // btGuardar
             // 
-            this.btGuardar.Location = new System.Drawing.Point(17, 211);
+            this.btGuardar.Font = new System.Drawing.Font("Unispace", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btGuardar.Location = new System.Drawing.Point(13, 284);
+            this.btGuardar.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btGuardar.Name = "btGuardar";
-            this.btGuardar.Size = new System.Drawing.Size(75, 23);
+            this.btGuardar.Size = new System.Drawing.Size(88, 25);
             this.btGuardar.TabIndex = 34;
             this.btGuardar.Text = "Guardar";
             this.btGuardar.UseVisualStyleBackColor = true;
@@ -75,95 +80,117 @@
             // 
             // tbMonto
             // 
-            this.tbMonto.Location = new System.Drawing.Point(120, 144);
+            this.tbMonto.Font = new System.Drawing.Font("Unispace", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tbMonto.Location = new System.Drawing.Point(166, 142);
+            this.tbMonto.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.tbMonto.Name = "tbMonto";
-            this.tbMonto.Size = new System.Drawing.Size(100, 20);
+            this.tbMonto.Size = new System.Drawing.Size(116, 21);
             this.tbMonto.TabIndex = 33;
             this.tbMonto.TextChanged += new System.EventHandler(this.tbMonto_TextChanged);
             // 
             // labelC3
             // 
-            this.labelC3.Location = new System.Drawing.Point(14, 147);
+            this.labelC3.Font = new System.Drawing.Font("Unispace", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelC3.Location = new System.Drawing.Point(16, 142);
+            this.labelC3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelC3.Name = "labelC3";
-            this.labelC3.Size = new System.Drawing.Size(100, 23);
+            this.labelC3.Size = new System.Drawing.Size(117, 25);
             this.labelC3.TabIndex = 32;
-            this.labelC3.Text = "Monto";
+            this.labelC3.Text = "Monto ";
             this.labelC3.Click += new System.EventHandler(this.labelC3_Click);
             // 
             // labelC2
             // 
-            this.labelC2.Location = new System.Drawing.Point(14, 67);
+            this.labelC2.Font = new System.Drawing.Font("Unispace", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelC2.Location = new System.Drawing.Point(16, 86);
+            this.labelC2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelC2.Name = "labelC2";
-            this.labelC2.Size = new System.Drawing.Size(100, 23);
+            this.labelC2.Size = new System.Drawing.Size(117, 25);
             this.labelC2.TabIndex = 30;
             this.labelC2.Text = "Cuenta";
+            this.labelC2.Click += new System.EventHandler(this.labelC2_Click);
             // 
             // labelC1
             // 
-            this.labelC1.Location = new System.Drawing.Point(14, 40);
+            this.labelC1.Font = new System.Drawing.Font("Unispace", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelC1.Location = new System.Drawing.Point(16, 55);
+            this.labelC1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelC1.Name = "labelC1";
-            this.labelC1.Size = new System.Drawing.Size(100, 23);
+            this.labelC1.Size = new System.Drawing.Size(117, 25);
             this.labelC1.TabIndex = 28;
             this.labelC1.Text = "Titular";
             // 
             // boxClientes
             // 
+            this.boxClientes.Font = new System.Drawing.Font("Unispace", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.boxClientes.FormattingEnabled = true;
-            this.boxClientes.Location = new System.Drawing.Point(120, 37);
+            this.boxClientes.Location = new System.Drawing.Point(166, 58);
+            this.boxClientes.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.boxClientes.Name = "boxClientes";
-            this.boxClientes.Size = new System.Drawing.Size(143, 21);
+            this.boxClientes.Size = new System.Drawing.Size(250, 22);
             this.boxClientes.TabIndex = 38;
             this.boxClientes.SelectedIndexChanged += new System.EventHandler(this.boxClientes_SelectedIndexChanged);
             // 
             // boxCuenta
             // 
+            this.boxCuenta.Font = new System.Drawing.Font("Unispace", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.boxCuenta.FormattingEnabled = true;
-            this.boxCuenta.Location = new System.Drawing.Point(120, 64);
+            this.boxCuenta.Location = new System.Drawing.Point(166, 86);
+            this.boxCuenta.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.boxCuenta.Name = "boxCuenta";
-            this.boxCuenta.Size = new System.Drawing.Size(143, 21);
+            this.boxCuenta.Size = new System.Drawing.Size(250, 22);
             this.boxCuenta.TabIndex = 39;
             this.boxCuenta.SelectedIndexChanged += new System.EventHandler(this.boxCuenta_SelectedIndexChanged);
             // 
             // boxConcept
             // 
+            this.boxConcept.Font = new System.Drawing.Font("Unispace", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.boxConcept.FormattingEnabled = true;
             this.boxConcept.Items.AddRange(new object[] {
             "Ingreso de Dinero",
             "Retiro de Dinero"});
-            this.boxConcept.Location = new System.Drawing.Point(120, 91);
+            this.boxConcept.Location = new System.Drawing.Point(166, 114);
+            this.boxConcept.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.boxConcept.Name = "boxConcept";
-            this.boxConcept.Size = new System.Drawing.Size(143, 21);
+            this.boxConcept.Size = new System.Drawing.Size(250, 22);
             this.boxConcept.TabIndex = 41;
             this.boxConcept.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // label1
             // 
-            this.label1.Location = new System.Drawing.Point(14, 94);
+            this.label1.Font = new System.Drawing.Font("Unispace", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(16, 114);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(100, 23);
+            this.label1.Size = new System.Drawing.Size(142, 25);
             this.label1.TabIndex = 40;
             this.label1.Text = "Tipo Transaccion";
             // 
             // tbSaldo
             // 
-            this.tbSaldo.Location = new System.Drawing.Point(120, 118);
+            this.tbSaldo.Font = new System.Drawing.Font("Unispace", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tbSaldo.Location = new System.Drawing.Point(166, 170);
+            this.tbSaldo.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.tbSaldo.Name = "tbSaldo";
-            this.tbSaldo.Size = new System.Drawing.Size(100, 20);
+            this.tbSaldo.Size = new System.Drawing.Size(116, 21);
             this.tbSaldo.TabIndex = 43;
             // 
             // label2
             // 
-            this.label2.Location = new System.Drawing.Point(14, 121);
+            this.label2.Font = new System.Drawing.Font("Unispace", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(16, 170);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(100, 23);
+            this.label2.Size = new System.Drawing.Size(141, 25);
             this.label2.TabIndex = 42;
             this.label2.Text = "Saldo Disponible";
             // 
             // VentanaNuevoMovimiento
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(294, 246);
+            this.BackColor = System.Drawing.SystemColors.Window;
+            this.ClientSize = new System.Drawing.Size(464, 321);
             this.Controls.Add(this.tbSaldo);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.boxConcept);
@@ -177,8 +204,12 @@
             this.Controls.Add(this.labelC3);
             this.Controls.Add(this.labelC2);
             this.Controls.Add(this.labelC1);
+            this.Font = new System.Drawing.Font("Unispace", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
+            this.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.Name = "VentanaNuevoMovimiento";
-            this.Text = "VentanaNuevoMovimiento";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
+            this.Text = "NUEVO MOVIMIENTO";
             this.ResumeLayout(false);
             this.PerformLayout();
 

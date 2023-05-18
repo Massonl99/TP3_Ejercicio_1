@@ -42,16 +42,17 @@
             // labelT
             // 
             this.labelT.AutoSize = true;
-            this.labelT.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelT.Font = new System.Drawing.Font("Unispace", 17.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelT.Location = new System.Drawing.Point(12, 9);
             this.labelT.Name = "labelT";
-            this.labelT.Size = new System.Drawing.Size(172, 25);
+            this.labelT.Size = new System.Drawing.Size(194, 28);
             this.labelT.TabIndex = 26;
             this.labelT.Text = "NUEVO CLIENTE\r\n";
             // 
             // btGuardar
             // 
-            this.btGuardar.Location = new System.Drawing.Point(17, 127);
+            this.btGuardar.Font = new System.Drawing.Font("Unispace", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btGuardar.Location = new System.Drawing.Point(12, 286);
             this.btGuardar.Name = "btGuardar";
             this.btGuardar.Size = new System.Drawing.Size(75, 23);
             this.btGuardar.TabIndex = 25;
@@ -61,14 +62,16 @@
             // 
             // tbC3
             // 
-            this.tbC3.Location = new System.Drawing.Point(120, 83);
+            this.tbC3.Font = new System.Drawing.Font("Unispace", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tbC3.Location = new System.Drawing.Point(158, 136);
             this.tbC3.Name = "tbC3";
-            this.tbC3.Size = new System.Drawing.Size(100, 20);
+            this.tbC3.Size = new System.Drawing.Size(210, 21);
             this.tbC3.TabIndex = 24;
             // 
             // labelC3
             // 
-            this.labelC3.Location = new System.Drawing.Point(14, 86);
+            this.labelC3.Font = new System.Drawing.Font("Unispace", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelC3.Location = new System.Drawing.Point(14, 136);
             this.labelC3.Name = "labelC3";
             this.labelC3.Size = new System.Drawing.Size(100, 23);
             this.labelC3.TabIndex = 23;
@@ -76,14 +79,16 @@
             // 
             // tbC2
             // 
-            this.tbC2.Location = new System.Drawing.Point(120, 60);
+            this.tbC2.Font = new System.Drawing.Font("Unispace", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tbC2.Location = new System.Drawing.Point(158, 98);
             this.tbC2.Name = "tbC2";
-            this.tbC2.Size = new System.Drawing.Size(100, 20);
+            this.tbC2.Size = new System.Drawing.Size(210, 21);
             this.tbC2.TabIndex = 22;
             // 
             // labelC2
             // 
-            this.labelC2.Location = new System.Drawing.Point(14, 63);
+            this.labelC2.Font = new System.Drawing.Font("Unispace", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelC2.Location = new System.Drawing.Point(13, 98);
             this.labelC2.Name = "labelC2";
             this.labelC2.Size = new System.Drawing.Size(100, 23);
             this.labelC2.TabIndex = 21;
@@ -91,14 +96,16 @@
             // 
             // tbC1
             // 
-            this.tbC1.Location = new System.Drawing.Point(120, 37);
+            this.tbC1.Font = new System.Drawing.Font("Unispace", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tbC1.Location = new System.Drawing.Point(158, 61);
             this.tbC1.Name = "tbC1";
-            this.tbC1.Size = new System.Drawing.Size(100, 20);
+            this.tbC1.Size = new System.Drawing.Size(210, 21);
             this.tbC1.TabIndex = 20;
             // 
             // labelC1
             // 
-            this.labelC1.Location = new System.Drawing.Point(14, 40);
+            this.labelC1.Font = new System.Drawing.Font("Unispace", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelC1.Location = new System.Drawing.Point(14, 61);
             this.labelC1.Name = "labelC1";
             this.labelC1.Size = new System.Drawing.Size(100, 23);
             this.labelC1.TabIndex = 19;
@@ -106,7 +113,8 @@
             // 
             // btVolver
             // 
-            this.btVolver.Location = new System.Drawing.Point(188, 127);
+            this.btVolver.Font = new System.Drawing.Font("Unispace", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btVolver.Location = new System.Drawing.Point(377, 286);
             this.btVolver.Name = "btVolver";
             this.btVolver.Size = new System.Drawing.Size(75, 23);
             this.btVolver.TabIndex = 27;
@@ -118,7 +126,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(275, 165);
+            this.BackColor = System.Drawing.SystemColors.Window;
+            this.ClientSize = new System.Drawing.Size(464, 321);
             this.Controls.Add(this.btVolver);
             this.Controls.Add(this.labelT);
             this.Controls.Add(this.btGuardar);
@@ -128,8 +137,10 @@
             this.Controls.Add(this.labelC2);
             this.Controls.Add(this.tbC1);
             this.Controls.Add(this.labelC1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
             this.Name = "VentanaNuevoCliente";
-            this.Text = "VentanaNuevoCliente";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
+            this.Text = "NUEVO CLIENTE";
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Drawing;
 using System.Windows.Forms;
 
 namespace Ejercicio1
@@ -15,9 +16,12 @@ namespace Ejercicio1
 		}
         void NuevoClienteClick(object sender, EventArgs e)
 		{
-			this.Hide();
+            Point posicionForm = this.Location;
+            this.Hide();
 			VentanaNuevoCliente ventanaCliente = new VentanaNuevoCliente();
+            ventanaCliente.Location = posicionForm;
 			ventanaCliente.Show();
+
 		}
         private void btSalir_Click(object sender, EventArgs e)
         {
@@ -32,8 +36,10 @@ namespace Ejercicio1
 		}
         private void btNuevaCuenta_Click(object sender, EventArgs e)
         {
+            Point posicionForm = this.Location;
             this.Hide();
 			VentanaNuevaCuenta ventanaCuenta = new VentanaNuevaCuenta();
+            ventanaCuenta.Location = posicionForm;
             ventanaCuenta.Show();
         }
         public IReadOnlyList<Cliente> ListaClientes
@@ -73,14 +79,18 @@ namespace Ejercicio1
         }
         private void btAgregarMovimiento_Click(object sender, EventArgs e)
         {
+            Point posicionForm = this.Location;
             this.Hide();
             VentanaNuevoMovimiento ventanaMovimineto = new VentanaNuevoMovimiento();
+            ventanaMovimineto.Location = posicionForm;
             ventanaMovimineto.Show();
         }
         private void btConsultarSaldo_Click(object sender, EventArgs e)
         {
+            Point posicionForm = this.Location;
             this.Hide();
             VentanaConsultarSaldo ventanaConsultarSaldo = new VentanaConsultarSaldo();
+            ventanaConsultarSaldo.Location = posicionForm;
             ventanaConsultarSaldo.Show();
         }
         public float Saldo(int nCliente, int nCuenta)
@@ -102,7 +112,9 @@ namespace Ejercicio1
         }
         private void btAdminCuentas_Click(object sender, EventArgs e)
         {
+            Point posicionForm = this.Location;
             VentanaAdministrarCuentas ventanaAdministrarCuentas = new VentanaAdministrarCuentas();  
+           ventanaAdministrarCuentas.Location = posicionForm;
             ventanaAdministrarCuentas.Show();
             this.Hide();
         }

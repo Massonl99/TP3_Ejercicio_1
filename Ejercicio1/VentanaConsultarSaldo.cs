@@ -36,34 +36,26 @@ namespace Ejercicio1
             }
             boxClientes.DisplayMember = "NombreCompleto";
         }
-        /*private void cargarListaCuentas(int carga)
-        {
-            boxCuenta.Items.Clear();
-            boxCuenta.Text = "Selecciones una Cuenta";
-            
-            foreach (Cuenta cuenta in lista2)
-            {
-                boxCuenta.Items.Add(cuenta);
-            }
-            boxCuenta.DisplayMember = "NumeroCuenta";
-        }*/
 
         private void btVolver_Click(object sender, EventArgs e)
         {
+            Point posicionForm = this.Location;
+            principal.Location = posicionForm;
             principal.Show();
             this.Close();
         }
 
         private void boxClientes_SelectedIndexChanged(object sender, EventArgs e)
         {
+
             int nCliente = boxClientes.SelectedIndex;
             IReadOnlyList<Cuenta> lista2 = principal.ListaCuentas(nCliente);
-            BoxListCuentas.Items.Clear();
-            foreach (Cuenta i in lista2)
-            {
-                BoxListCuentas.Items.Add(i);
-            }
-            BoxListCuentas.DisplayMember = "nCuentaySaldo";
+            Tabla.DataSource = lista2;
+            Tabla.Columns["nCuentaySaldo"].Visible = false;
+            Tabla.Columns["NumerodeCuenta"].Visible = false;
+            Tabla.Columns[1].AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
+
         }
+
     }
 }
