@@ -30,18 +30,26 @@ namespace Ejercicio1
 			get { return numeroCuenta; }
 			set { numeroCuenta = value; }
 		}
-
-		public string nCuentaySaldo
+		public string Titular
+		{
+			get { return titular; }
+		}
+        public float Saldo
+        {
+            get { return saldo; }
+            set { saldo = value; }
+        }
+        public string nCuentaySaldo
 		{
 			get { return $"{numeroCuenta}\t\t|\t{saldo}";}
 		}
+
 		public string NumerodeCuenta
 		{
 			get { return numeroCuenta.ToString(); }
 		}
-		public float Saldo {
-			get { return saldo; }
-			set { saldo = value; } }
+
+		
 	}
 } 
 

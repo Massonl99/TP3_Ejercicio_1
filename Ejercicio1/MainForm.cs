@@ -87,5 +87,24 @@ namespace Ejercicio1
         {
             return Clientes[nCliente].Cuentas[nCuenta].Saldo;
         }
+        public IReadOnlyList<Cuenta> AllCuentas() {
+            
+            List<Cuenta> Cuentas2 = new List<Cuenta>();
+            Cuentas2.Clear();
+            foreach (Cliente i in Clientes)
+            {
+                foreach (Cuenta j in i.Cuentas)
+                {
+                    Cuentas2.Add(j);
+                }
+            }
+            return Cuentas2.AsReadOnly();
+        }
+        private void btAdminCuentas_Click(object sender, EventArgs e)
+        {
+            VentanaAdministrarCuentas ventanaAdministrarCuentas = new VentanaAdministrarCuentas();  
+            ventanaAdministrarCuentas.Show();
+            this.Hide();
+        }
     }
 }

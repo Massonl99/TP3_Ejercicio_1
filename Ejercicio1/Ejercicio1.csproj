@@ -68,6 +68,12 @@
     <Compile Include="Movimientos.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="VentanaAdministrarCuentas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VentanaAdministrarCuentas.Designer.cs">
+      <DependentUpon>VentanaAdministrarCuentas.cs</DependentUpon>
+    </Compile>
     <Compile Include="VentanaConsultarSaldo.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -99,6 +105,9 @@
   <ItemGroup>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VentanaAdministrarCuentas.resx">
+      <DependentUpon>VentanaAdministrarCuentas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="VentanaConsultarSaldo.resx">
       <DependentUpon>VentanaConsultarSaldo.cs</DependentUpon>

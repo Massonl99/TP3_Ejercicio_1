@@ -21,19 +21,16 @@ namespace Ejercicio1
 		public List< Cuenta> Cuentas = new List<Cuenta>();
 		public int nTotalCuentas = 0;
 		
-		
-
 
 		public Cliente()
 		{
 		}
-
 		public int DNI {get{return dni;}set{dni=value;}}
 		public string Nombre {get{return nombre;}set{nombre=value;}}
 		public string Apellido {get{return apellido;}set{apellido=value;}}
         public string NombreCompleto
         {
-            get { return $"{Nombre} {Apellido}"; }
+            get { return $"{Apellido}, {nombre}"; }
         }
     }
 }

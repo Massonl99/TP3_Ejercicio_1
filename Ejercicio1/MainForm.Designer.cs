@@ -42,6 +42,7 @@ namespace Ejercicio1
             this.btAgregarMovimiento = new System.Windows.Forms.Button();
             this.btConsultarSaldo = new System.Windows.Forms.Button();
             this.btSalir = new System.Windows.Forms.Button();
+            this.btAdminCuentas = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btNuevoCliente
@@ -94,11 +95,22 @@ namespace Ejercicio1
             this.btSalir.UseVisualStyleBackColor = true;
             this.btSalir.Click += new System.EventHandler(this.btSalir_Click);
             // 
+            // btAdminCuentas
+            // 
+            this.btAdminCuentas.Location = new System.Drawing.Point(12, 82);
+            this.btAdminCuentas.Name = "btAdminCuentas";
+            this.btAdminCuentas.Size = new System.Drawing.Size(85, 35);
+            this.btAdminCuentas.TabIndex = 12;
+            this.btAdminCuentas.Text = "Administrar Cuentas";
+            this.btAdminCuentas.UseVisualStyleBackColor = true;
+            this.btAdminCuentas.Click += new System.EventHandler(this.btAdminCuentas_Click);
+            // 
             // VentanaPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(225, 156);
+            this.Controls.Add(this.btAdminCuentas);
             this.Controls.Add(this.btSalir);
             this.Controls.Add(this.btConsultarSaldo);
             this.Controls.Add(this.btAgregarMovimiento);
@@ -114,5 +126,6 @@ namespace Ejercicio1
         private System.Windows.Forms.Button btAgregarMovimiento;
         private System.Windows.Forms.Button btConsultarSaldo;
         private System.Windows.Forms.Button btSalir;
+        private System.Windows.Forms.Button btAdminCuentas;
     }
 }
