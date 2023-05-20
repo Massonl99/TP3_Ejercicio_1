@@ -44,7 +44,6 @@ namespace Ejercicio1
         {
             IReadOnlyList<Cuenta> cuentas = principal.AllCuentas();
             Tabla.DataSource = cuentas;
-            Tabla.Columns["nCuentaySaldo"].Visible = false;
             Tabla.Columns["NumerodeCuenta"].Visible = false;
             Tabla.Columns[1].AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
         }
